@@ -30,3 +30,18 @@ int main()
     yylex();
     return 0;
 }
+/*how to run
+   ↓
+vi first.l (creates or opens the file named first is it exists)
+   ↓
+Write Lex program
+   ↓
+Esc :wq   (To come back to terminal)
+   ↓
+flex first.l
+   ↓
+gcc lex.yy.c
+   ↓
+./a.out 
+    ↓
+give input */
